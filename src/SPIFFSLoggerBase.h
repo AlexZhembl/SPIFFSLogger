@@ -22,6 +22,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include <Arduino.h>
 #include <FS.h>
 #include <time.h>
+#include "SPIFFS.h"
 
 /**
  * Base class for the SPIFFSLogger template, implementing common methods. Should not be used directly.
